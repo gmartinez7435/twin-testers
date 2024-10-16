@@ -36,3 +36,23 @@
         border-color: transparent;
     }
 }
+
+@keyframes outtoin {
+    from {
+         width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes outtoin2 {
+    from {
+         width: 150%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
