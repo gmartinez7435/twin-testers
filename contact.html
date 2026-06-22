@@ -10,8 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="contact page" href="contact.html" />
-    <title>Testing Page</title>
+    <link rel="home page" href="index.html" />
+    <title>Contact Page</title>
   </head>
   <body class="bg-dark light-text">
     <nav
@@ -66,61 +66,48 @@
         </div>
       </div>
     </nav>
-    <section>
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col"></div>
-            <img
-              id="mainpic"
-              src="pexels-towfiqu-barbhuiya-3440682-11341890.jpg"
-              class="img-fluid"
-            />
-            <div class="overlay-text display-1">Twin Testers</div>
-          </div>
+    <main>
+      <div class="box2">
+        <div id="contactStatment">
+          For more information or to schedule a complimentary consultation,
+          please complete the form below. A member of our team will be in touch
+          shortly to discuss your needs, answer any initial questions you may
+          have, and arrange an appointment at a time that is convenient for you.
+          We look forward to connecting with you and learning how we can best
+          assist you.
         </div>
-      </header>
-    </section>
-    <section>
-      <main>
-        <div id="subheadtext" class="container-fluid">
-          <div class="row">
-            <div class="col">
-              <h1
-                class="display-1"
-                style="
-                  text-align: center;
-                  padding: 50px;
-                  animation: outtoin 1s linear 1 forwards;
-                "
-              >
-                Complete<br />Testing
-              </h1>
+        <div id="contact-form">
+          <form method="post" class="contact-form">
+            <div>
+              <label for="name">Enter your full name:</label>
+              <input type="text" name="name" id="name" placeholder="John Doe" />
             </div>
-            <div class="col">
-              <h3
-                cass="display-3"
-                style="
-                  margin-top: 15%;
-                  margin-bottom: 15%;
-                  text-align: center;
-                  animation: outtoin2 1s linear 1 forwards;
-                "
-              >
-                All your testing needs<br />in one place.
-              </h3>
+            <div>
+              <label for="name">Enter company name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="n/a"
+                required
+              />
             </div>
-          </div>
+            <div>
+              <label for="email">Enter your email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="JohnD@gmail.com"
+              />
+            </div>
+            <div>
+              <button id="submit" onclick="">Submit Request</button>
+            </div>
+          </form>
         </div>
-        <video
-          src="8212367-uhd_3840_2160_25fps.mp4"
-          width="700"
-          autoplay
-          muted
-          loop
-        ></video>
-      </main>
-    </section>
+      </div>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

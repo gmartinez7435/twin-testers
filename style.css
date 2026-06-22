@@ -1,7 +1,9 @@
 #mainpic {
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0 0 5px white;
+    margin-top: 2px;
     border: 0;
     border-radius: 2px;
+
 }
 #mainpic:hover {
     box-shadow: 0 0 25px whitesmoke;
@@ -9,8 +11,13 @@
     transition: 1s;
 }
 
+nav {
+background-color: rgb(214, 75, 5);
+}
+
 .overlay-text {
     position: absolute;
+    padding-top: 35px;
     font-family: monospace;
     font-size: 1.5rem;
     overflow: hidden;
@@ -55,4 +62,36 @@
     to {
         width: 100%;
     }
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+} 
+#contactStatment {
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    width: 750px;
+    
+}
+#contact-form {
+ border: solid 1px;
+ border-radius: 10px;
+ margin: 25px;
+ padding: 25px;
+}
+.contact-form > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.contact-form label {
+    width: 200px;
+}
+.contact-form input {
+    flex: 1;
 }
