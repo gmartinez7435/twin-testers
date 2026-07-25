@@ -1,97 +1,96 @@
-#mainpic {
-    box-shadow: 0 0 5px white;
-    margin-top: 2px;
-    border: 0;
-    border-radius: 2px;
-
+body {
+  margin: 0;
+  padding: 0;
 }
-#mainpic:hover {
-    box-shadow: 0 0 25px whitesmoke;
-    transform: scale(1.02);
-    transition: 1s;
+.hero {
+  height: 100dvh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(pexels-towfiqu-barbhuiya-3440682-11341890.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
-background-color: rgb(214, 75, 5);
+  background-color: rgb(214, 75, 5);
 }
 
 .overlay-text {
-    position: absolute;
-    padding-top: 35px;
-    font-family: monospace;
-    font-size: 1.5rem;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 2px solid white;
-    width: 12ch;
-    animation: typing 2s steps(12) forwards,
-    blink 1s step-end infinite ;
-    left: 50%;
-    transform: translate(-50%, 0%);
+  position: absolute;
+  padding-top: 35px;
+  font-family: monospace;
+  font-size: 1.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+  width: 12ch;
+  animation:
+    typing 2s steps(12) forwards,
+    blink 1s step-end infinite;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 @keyframes typing {
-    from {
-        width: 0;
-    }
+  from {
+    width: 0;
+  }
 
-    to {
-        width: 13ch;
-    }
+  to {
+    width: 13ch;
+  }
 }
 @keyframes blink {
-    50% {
-        border-color: transparent;
-    }
+  50% {
+    border-color: transparent;
+  }
 }
 
 @keyframes outtoin {
-    from {
-         width: 0%;
-    }
+  from {
+    width: 0%;
+  }
 
-    to {
-        width: 100%;
-    }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes outtoin2 {
-    from {
-         width: 150%;
-    }
+  from {
+    width: 150%;
+  }
 
-    to {
-        width: 100%;
-    }
+  to {
+    width: 100%;
+  }
 }
 
 .box2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-} 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #contactStatment {
-    margin-top: 50px;
-    font-size: 1.5em;
-    text-align: center;
-    width: 750px;
-    
+  margin-top: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  width: 750px;
 }
 #contact-form {
- border: solid 1px;
- border-radius: 10px;
- margin: 25px;
- padding: 25px;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
 }
 .contact-form > div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
 }
 .contact-form label {
-    width: 200px;
+  width: 200px;
 }
 .contact-form input {
-    flex: 1;
+  flex: 1;
 }
